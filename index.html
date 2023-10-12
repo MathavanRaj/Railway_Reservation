@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Railway Reservation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    
+    <form action="ReservationServlet" method="post">
+		<table>
+		<h1>Railway Reservation</h1>
+		<tr>
+        <td><label for="train_name">Train Name:</label></td>
+        <td><input type="text" name="train_name" required><br></td>
+		</tr>
+
+		<tr>
+        <td><label for="source">Source:</label></td>
+        <td><input type="text" name="source" required><br></td>
+		</tr>
+		
+		<tr>
+        <td><label for="destination">Destination:</label></td>
+        <td><input type="text" name="destination" required><br></td>
+		</tr>
+		
+		<tr>
+        <td><label for="date">Date:</label></td>
+        <td><input type="date" name="date" required><br></td>
+		</tr>
+		
+		<tr>
+        <td><label for="passenger_name">Passenger Name:</label></td>
+        <td><input type="text" name="passenger_name" required><br></td>
+		</tr>
+
+		<tr>
+        <td><label for="seat_count">Seat Count:</label></td>
+        <td><input type="number" name="seat_count" required><br></td>
+		</tr>
+
+		<tr>
+        <td><input type="submit" value="Make Reservation"></td>
+		</tr>
+    </form>
+    </table>
+</body>
+</html>
